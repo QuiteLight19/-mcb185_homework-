@@ -1,0 +1,14 @@
+Tue Jan 16 12:41:07 PST 2024
+amanp
+/home/amanp
+/bin/bash
+/home/amanp/Code/mcb185_homework
+/usr/local/bin:/usr/bin:/cygdrive/c/WINDOWS/system32:/cygdrive/c/WINDOWS:/cygdrive/c/WINDOWS/System32/Wbem:/cygdrive/c/WINDOWS/System32/WindowsPowerShell/v1.0:/cygdrive/c/WINDOWS/System32/OpenSSH:/cygdrive/c/Users/amanp/AppData/Local/Microsoft/WindowsApps
+CYGWIN_NT-10.0-22621 TABLET-9GN7IURP 3.4.10-1.x86_64 2023-11-29 12:12 UTC x86_64 Cygwin
+Python 3.9.16
+/home/amanp/Code
+/home/amanp/Code/MCB185
+/home/amanp/Code/MCB185/.git
+/home/amanp/Code/MCB185/data
+/home/amanp/Code/mcb185_homework
+/home/amanp/Code/mcb185_homework/.git
