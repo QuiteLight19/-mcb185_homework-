@@ -28,6 +28,11 @@ def mphtokph(a): #miles to kilometers
 	return (a * 1.609)
 print(mphtokph(24))
 
+def midpoint (x1, y1, x2, y2):
+	return((y2 - y1) / (x2-x1))
+	return mx, my
+print (midpoint(9, 9, 5, 4))
+
 s = "hello world"
 print(s, type(s))
 
@@ -44,3 +49,11 @@ print(type(c))
 if a < b: print('a < b')
 elif a > b: print('a > b')
 else: print ('a == b')
+# if a has remainder, print odd. no remainder, print even.
+
+def isinteger(a):
+	c = (a % 2)
+	if c == 0: print ('even')
+	elif c != 0: print ('odd')
+	else: print ('unknown')
+print(isinteger(1))
