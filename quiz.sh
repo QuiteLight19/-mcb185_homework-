@@ -1,3 +1,4 @@
+# co-authors Aman, Ashley
 $USER
 
 gunzip dictionary.gz -c | grep -xE "[muocaft]{1,}" | grep "a"
