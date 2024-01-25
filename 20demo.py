@@ -49,11 +49,34 @@ print(type(c))
 if a < b: print('a < b')
 elif a > b: print('a > b')
 else: print ('a == b')
-# if a has remainder, print odd. no remainder, print even.
 
 def isinteger(a):
 	c = (a % 2)
-	if c == 0: print ('even')
-	elif c != 0: print ('odd')
-	else: print ('unknown')
+	if c == 0: return('even')
+	elif c != 0: return('odd')
+	else: return('unknown')
 print(isinteger(1))
+
+def isprobable(a): # numbers b/t 0 and 1, anything higher/lower is invalid.
+	if a > 0 and a < 1: return('yessir')
+	else: return('nah fam')
+print(isprobable(0.5))
+
+def nucleocomp(nt):
+	if nt == 'A': return T
+	elif nt == 'T': return A
+	elif nt == 'C': return G
+	elif nt == 'G': return C
+	else: return unknown
+print(nucleocomp('A'))
+
+def nucleoweight(nt):
+	if nt == A: return 313.21
+	elif nt == T: return 304.2 D
+	elif nt == C: return 289.18 D
+	elif nt == G: return 329.21 D
+	else: return wtf are you doing
+print(nucleoweight('T'))
+	
+	
+	

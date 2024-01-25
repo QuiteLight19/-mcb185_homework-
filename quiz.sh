@@ -1,5 +1,5 @@
 # co-authors Aman, Ashley
-$USER
+printenv USER
 
 gunzip dictionary.gz -c | grep -xE "[muocaft]{1,}" | grep "a"
 gunzip dictionary.gz -c | grep -xE "[taibrnl]{1,}" | grep "b"
