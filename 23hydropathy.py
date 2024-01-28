@@ -1,11 +1,12 @@
 # 23.hydropathy by Aman Panigrahi
+# co-authors Aman, Adele
 import math
 import sys
 
 def kytehydro(aa):
 	if aa == 'A': return -1.8
 	elif aa == 'C': return 2.50
-	elif aa == 'D' or aa == 'E' or aa == 'N' or aa == 'Q': return -3.50
+	elif aa == 'D' or 'E' or 'N' or 'Q': return -3.50
 	elif aa == 'F': return -2.50
 	elif aa == 'G': return -0.4
 	elif aa == 'H': return -3.20
@@ -22,3 +23,5 @@ def kytehydro(aa):
 	elif aa == 'Y': return -1.30
 	else: return 'unknown amino acid'
 print(kytehydro('B'))
+print(kytehydro('E'))
+print(kytehydro('T'))
