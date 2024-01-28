@@ -1,4 +1,5 @@
-#21.quadratic by Aman Panigrahi, co authors Aman, Ashley
+#21.quadratic by Aman Panigrahi,
+# co authors: Aman, Ashley
 import math
 import sys
 
@@ -11,3 +12,4 @@ def quadratic(a, b, c):
 	return round(x1, ndigits = 5), round(x2, ndigits = 5)
 print(quadratic(3, 4, -8)) 
 print(quadratic(7, -4, -94))
+print(quadratic(3, 0.865, -2.69))
