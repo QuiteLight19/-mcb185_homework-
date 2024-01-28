@@ -1,8 +1,6 @@
-""" 22.oligotemp by Aman Panigrahi
-Oligo melting temperature given A T G C in sequence
-<= 13 nt, Tm (A+T)*2 + (G+C)*4
-longer than 13: 64.9 + 41*(G+C) - 16.4/ (A+T+G+C)
-"""
+# 22.oligotemp by Aman Panigrahi
+#Co authors Aman, Ashley
+
 import math
 
 def oligotemp(a, c, g, t):

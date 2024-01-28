@@ -1,4 +1,4 @@
-#21.quadratic by Aman Panigrahi
+#21.quadratic by Aman Panigrahi, co authors Aman, Ashley
 import math
 import sys
 
