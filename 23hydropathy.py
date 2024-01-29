@@ -1,7 +1,7 @@
 # 23.hydropathy by Aman Panigrahi
-# co-authors Aman, Adele
+# co-authors Aman, Adele (discord name), Ashley
 import math
-import sys
+
 
 def kytehydro(aa):
 	if   aa == 'A': return -1.8
