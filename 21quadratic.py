@@ -4,7 +4,7 @@ import math
 import sys
 
 def quadratic(a, b, c):
-	if (b**2 - 4*a*c) < 0: 
+	if(b**2 - 4*a*c) < 0:
 		sys.exit('no real solution') 
 	else:
 		x1 = (-b + math.sqrt(b**2 - 4*a*c))/ (2*a)

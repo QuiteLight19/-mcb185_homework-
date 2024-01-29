@@ -1,5 +1,5 @@
 # 23.hydropathy by Aman Panigrahi
-# co-authors Aman, Adele (discord name), Ashley
+# co-authors Aman, Adele(discord name), Ashley
 import math
 
 
