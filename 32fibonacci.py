@@ -1,8 +1,7 @@
 # 32fibonacci by Aman Panigrahi
-# 0, 1, 1, 2, 3, 5, 8, 13
+# Co-Authors: Aman, 
 
 import math
-import sys
 a = 0
 b = 1
 

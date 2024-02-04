@@ -33,12 +33,11 @@ for nt1 in nts:
 	for nt2 in nts:
 		if nt1 == nt2: print(nt1, nt2, '+1')
 		else		 : print(nt1, nt2, '-1')
-"""
+	
 limit = 4 # all possible unique pairings:
 for i in range(0, limit):
 	for j in range(i + 1, limit):
 		print(i+1, j+1)
-"""
 def tri(n):
 	tri = 0
 	for i in range(n+1):
