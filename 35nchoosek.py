@@ -1,7 +1,5 @@
 # 35nchoosek by Aman Panigrahi
-# Co-authors Aman, 
-import math
-
+# Co-authors Aman, David
 def factorial(n):
 	if n == 0: return 1
 	fac = 1

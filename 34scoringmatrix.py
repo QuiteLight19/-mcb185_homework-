@@ -1,5 +1,5 @@
 # 34 scoring matrix by Aman Panigrahi
-#Co-Authors Aman, 
+#Co-Authors Aman, George 
 
 seq= 'ACGT'
 for nt in seq:

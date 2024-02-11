@@ -1,7 +1,6 @@
 # 32fibonacci by Aman Panigrahi
 # Co-Authors: Aman, 
 
-import math
 a = 0
 b = 1
 
