@@ -18,7 +18,7 @@ for i in range(trials):
 		d = random.randint(1, 6)
 		d2 = random.randint(1, 6)
 		if d == 1: score += d2
-		else: score += d
+		else	 : score += d
 	totalr1 +=score
 print(totalr1/trials)
 
@@ -29,7 +29,7 @@ for i in range(trials):
 		d1 = random.randint(1, 6)
 		d2 = random.randint(1, 6)
 		if d1 >= d2: score += d1
-		else: score += d2
+		else	   : score += d2
 	totalx2 += score
 print(totalx2/trials)
 
@@ -43,6 +43,6 @@ for i in range(trials):
 	if   d1 <= d2 and d1 <= d3 and d1 <= d4: score = d2 + d3 + d4
 	elif d2 <= d1 and d2 <= d3 and d2 <= d4: score = d1 + d3 + d4
 	elif d3 <= d1 and d3 <= d2 and d3 <= d4: score = d1 + d2 + d4
-	else: score = d1 + d2 + d3
+	else								   : score = d1 + d2 + d3
 	total4d1 += score
 print(total4d1/trials)

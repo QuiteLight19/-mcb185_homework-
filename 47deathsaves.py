@@ -17,9 +17,9 @@ for i in range(games):
 		elif d <  20 and d >= 10: s += 1
 		elif d <  10 and d >=  2: f += 1
 		else					: f += 2
-		if f >= 3: die += 1
-		if r == 1: revive += 1
-		if s == 3: stable +=1
+		if f >= 3				: die += 1
+		if r == 1				: revive += 1
+		if s == 3				: stable +=1
 
 print(die/games)
 print(stable/games)
