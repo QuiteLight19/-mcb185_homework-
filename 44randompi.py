@@ -13,12 +13,3 @@ while True:
 		inside += 1
 	pi = ((inside/runs)*4)
 	print(pi)
-"""
-while True:
-	x = random.random()
-	y = random.random()
-	runs += 1
-	if math.sqrt(x**2 + y**2) < 1: inside +=1
-	print(f'pi = {4*inside/runs}')
-"""
-	
