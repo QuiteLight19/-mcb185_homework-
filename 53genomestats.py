@@ -1,4 +1,5 @@
 #53 genome stats by Aman Panigrahi
+# Co-Authors: Aman, Ashley
 import gzip
 import sys
 import math

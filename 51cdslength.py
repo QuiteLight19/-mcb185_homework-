@@ -11,3 +11,4 @@ with gzip.open(path, 'rt') as fp:
 		beg = int(words[3])
 		end = int(words[4])
 		lengths.append(beg - end + 1)
+print(lengths)
