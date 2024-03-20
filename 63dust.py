@@ -18,11 +18,10 @@ for defline, seq in mcb185.read_fasta(sys.argv[1]):
 		c = s.count('C')
 		g = s.count('G')
 		t = s.count('T')
-		if a > 0: ent += (a/w) * math.log2(a/w)
-		if c > 0: ent += (c/w) * math.log2(c/w)
-		if g > 0: ent += (g/w) * math.log2(g/w)
-		if t > 0: ent += (t/w) * math.log2(t/w)
-		ent *=1
+		if a > 0: ent -= (a/w) * math.log2(a/w)
+		if c > 0: ent -= (c/w) * math.log2(c/w)
+		if g > 0: ent -= (g/w) * math.log2(g/w)
+		if t > 0: ent -= (t/w) * math.log2(t/w)
 		if ent < thresh:
 			for j in range(w): out[i+j] = 'N'
 	print(''.join(out))
