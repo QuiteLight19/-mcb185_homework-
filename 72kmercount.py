@@ -1,4 +1,5 @@
-
+# 72kmercount by Aman Panigrahi
+# Co-Authors: Aman, Ashley
 
 import mcb185
 import sys
