@@ -1,5 +1,5 @@
-#
-#
+# 92 variants by Aman Panigrahi
+# Co-Authors: Aman, Ashley
 import argparse
 import gzip
 

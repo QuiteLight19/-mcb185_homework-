@@ -1,5 +1,5 @@
-#91 translate by Aman Panigrahi
-#Co-Authors: Aman, Ashley
+# 91 translate by Aman Panigrahi
+# Co-Authors: Aman, Ashley
 
 import argparse
 import mcb185
