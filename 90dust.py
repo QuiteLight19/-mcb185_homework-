@@ -1,3 +1,5 @@
+#90 dust by Aman Panigrahi
+#Co-Authors: Aman, Ashley
 import argparse
 import mcb185
 import math
