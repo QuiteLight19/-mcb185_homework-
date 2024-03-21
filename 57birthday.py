@@ -9,8 +9,8 @@ people = int(sys.argv[3])
 
 
 total = 0
+calendar = []
 for i in range(trials):
-	calendar = []
 	for j in range(days):
 		calendar.append(0)
 	for k in range(people):

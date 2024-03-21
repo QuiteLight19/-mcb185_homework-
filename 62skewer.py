@@ -18,7 +18,7 @@ for defline, seq in mcb185.read_fasta(sys.argv[1]):
 		elif right == 'C': c += 1
 		
 		gc_comp = (c+g) / w
-		if (c+g) > 0: gc_skew = (g-c) / (g+c)
+		if c+g > 0: gc_skew = (g-c) / (g+c)
 		else: gc_skew = 0
 		print(i, gc_comp, gc_skew)
 		
