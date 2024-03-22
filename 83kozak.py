@@ -1,5 +1,5 @@
-#
-#
+# 83 kozak by Aman Panigrahi
+# Co-Authors: Aman, Ashley
 
 import gzip
 import mcb185
